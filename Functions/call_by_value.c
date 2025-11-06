@@ -1,5 +1,5 @@
 #include<stdio.h>
-int func(int, int);
+void func(int, int);
 int main(){
     int x = 10, y = 20;
     // printf("Enter the values\n");

@@ -13,11 +13,11 @@ int main(){
     case 'i':
     case 'o':
     case 'u':
-        printf("This is the vowel");
+        printf("This is the vowel\n");
         break;
     
     default:
-        printf("This is consonant");
+        printf("This is consonant\n");
         break;
     }
     return 0;
