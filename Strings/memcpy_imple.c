@@ -21,7 +21,7 @@ void *my_memcpy(void *src,void *des, size_t n){
 
 
         }
-    }
+    
 
         size_t *dw = (size_t *) d;
         size_t *sw = (size_t *) s;
@@ -30,6 +30,7 @@ void *my_memcpy(void *src,void *des, size_t n){
             *dw++ = *sw++;
             n = n - word;
         }
+    }
         d = (unsigned char*) dw;
         s = (unsigned char *) sw;
         while(n > 0){
